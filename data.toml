@@ -1,0 +1,13 @@
+# TOML is only used for this file. The other files, such as templates, are in Rusty Object Notation (RON) format.
+[bevyinit]
+version = "0.0.1" # The data version. The local files will be reloaded if this changes.
+bin_version = "0.2.0" # The binary version related to this. The user will be warned to update if this != the current installed binary version.
+template_path = "templates" # ./templates/..
+
+[data]
+templates = [
+  "hello_world", # hello_world and minimal are already embedded in the binary
+  "minimal", # added for testing purposes
+]
+crates = []
+repos = []
