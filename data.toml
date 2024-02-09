@@ -6,8 +6,9 @@ template_path = "templates" # ./templates/..
 
 [data]
 templates = [
-  "hello_world", # hello_world and minimal are already embedded in the binary
-  "minimal", # added for testing purposes
+  "window_settings",
+  "bevy_xpbd_3d",
+  "bevy_rapier3d",
 ]
 crates = []
 repos = []
