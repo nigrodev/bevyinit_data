@@ -1,5 +1,5 @@
 TemplateFile (
-    beauty_name: "bevy_xpbd_3d example (3d physics)",
+    beauty_name: "bevy_rapier3d example (3d physics)",
     bevy_version: "0.12.1",
     force_order: None,
     extra_crates: {
