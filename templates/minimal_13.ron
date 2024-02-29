@@ -1,0 +1,13 @@
+TemplateFile (
+    beauty_name: "Minimal Bevy App",
+    bevy_version: "0.13.0",
+    force_order: Some(0),
+    extra_crates: {}
+)
+
+--!code
+use bevy::prelude::*;
+
+fn main() {
+    App::new().run();
+}
