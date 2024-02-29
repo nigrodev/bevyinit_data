@@ -9,6 +9,7 @@ templates = [
   "window_settings",
   "bevy_xpbd_3d",
   "bevy_rapier3d",
+  "minimal_13"
 ]
 crates = []
 repos = []
